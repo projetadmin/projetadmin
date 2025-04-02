@@ -1,0 +1,53 @@
+/* Réinitialisation des marges et des paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Styles pour l'en-tête */
+  header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Styles pour les sections */
+  section {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles pour le pied de page */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+  }
+  
